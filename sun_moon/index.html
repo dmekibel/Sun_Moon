@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Title</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="Author">
+    <link rel="stylesheet" href="style/global.css">
+</head>
+
+<body>
+<div id='container'>
+    
+    <script>
+var date = new Date();
+var hours = date.getHours();
+if ( (hours < 8) || (hours > 20) ) {
+ document.write("<img id='image' SRC='images/moon.png'>")
+} else {
+ document.write("<img id='image' SRC='images/sun.png'>");
+}
+</script>
+</div>
+</body>
+</html>
